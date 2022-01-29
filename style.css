@@ -1,0 +1,9 @@
+/* set body and html height to fit screen */
+body, html {
+    height: 100%;
+}
+
+/* set the font family to sans-sertif */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
