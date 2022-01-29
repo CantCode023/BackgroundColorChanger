@@ -21,10 +21,12 @@ document.getElementById("input").addEventListener("input", function(e) {
         document.body.style.backgroundColor = input;
         // and set the h1 to a new color
         document.getElementsByTagName("h1")[0].style.color = getContrastingColor(input);
+        div.style.color = getContrastingColor(input);
     } else {
         document.body.style.backgroundColor = "white";
         // and set the h1 to black
         document.getElementsByTagName("h1")[0].style.color = "black";
+        div.style.color = "black"
     }
 })
 
