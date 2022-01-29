@@ -1,7 +1,7 @@
 // create a div element
 var div = document.createElement("div");
 // add an h1 and an input inside of it
-div.innerHTML = "<h1>Hello World</h1># <input type='text' id='input'/>";
+div.innerHTML = "<h1>Hello World</h1># <input type='text' maxlength='6' id='input'/>";
 // add the div to the body
 document.body.appendChild(div);
 
